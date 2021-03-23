@@ -22,9 +22,6 @@ jobs:
       - name: Install deps and build (with cache)
         run: npm install
 
-      - name: Lint
-        run: yarn lint
-
       - name: Test
         run: npm run test
 
