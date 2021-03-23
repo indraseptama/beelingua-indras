@@ -1,0 +1,36 @@
+module.exports = {
+  root: true,
+  env: {
+    es6: true,
+    jest: true,
+    'react-native/react-native': true,
+  },
+  extends: [
+    'airbnb-typescript',
+    'airbnb/hooks',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:jest/recommended',
+    'prettier',
+    'prettier/react',
+    'prettier/@typescript-eslint',
+    'plugin:prettier/recommended',
+    'airbnb',
+  ],
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint', 'react', 'react-native', 'jest'],
+  rules: {
+    'import/extensions': 'off',
+    'import/no-unresolved': 'off',
+    'operator-linebreak': 'off',
+    'no-use-before-define': 0,
+    'linebreak-style': [
+      'error',
+      process.platform === 'win32' ? 'windows' : 'unix',
+    ],
+    'react/jsx-filename-extension': 0,
+    'max-len': ['error', {code: 150, tabWidth: 2}],
+    'no-unused-vars': 0,
+    'import/prefer-default-export': 'off',
+    'react/destructuring-assignment': 'off',
+  },
+};
