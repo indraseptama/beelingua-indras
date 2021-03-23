@@ -20,7 +20,7 @@ import {
 } from 'react-native';
 
 import {Colors, Header} from 'react-native/Libraries/NewAppScreen';
-import { connect } from 'react-redux';
+import {connect} from 'react-redux';
 
 const Section: React.FC<{
   title: string;
@@ -71,7 +71,7 @@ const App = (props: DispatchProps) => {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="Beelingua">Hello {nameFromRoot}!</Section>
+          <Section title="Beelingua">Hello Semua! {nameFromRoot}!</Section>
         </View>
       </ScrollView>
     </SafeAreaView>
@@ -97,7 +97,7 @@ const styles = StyleSheet.create({
   },
 });
 
-const mapStateToProps = (state: any) => ({ root: state });
+const mapStateToProps = (state: any) => ({root: state});
 type DispatchProps = ReturnType<typeof mapStateToProps>;
 
 export default connect(mapStateToProps, null)(App);
