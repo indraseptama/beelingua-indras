@@ -1,10 +1,10 @@
 {
   "name": "beelingua-indras-check",
   "version": "0.0.1",
+  "license": "MIT",
   "main": "index.js",
   "typings": "index.d.ts",
   "author": "indraseptama",
-  "private": false,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
