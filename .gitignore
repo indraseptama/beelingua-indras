@@ -59,15 +59,8 @@ buck-out/
 /ios/Pods/
 
 # other
-pdfmake
 package-lock.json
 yarn.lock
-android/app/src/main/assets/mfpclient.properties
-android/app/src/main/assets/www
-ios/mfpclient.plist
-ios/prufast/www
-.env
-library/magnum/lh-magnum-pure-reactnative-plugin/android/src/main/assets/magnum-assets
 # app/utilities/PushUpdate/config.json
 
 # assets
@@ -78,7 +71,6 @@ android/app/src/main/res/drawable-xxhdpi
 android/app/src/main/res/drawable-xxxhdpi
 android/app/src/main/res/raw
 android/app/src/main/assets/index.android.bundle
-android/app/prufast.keystore
 android/*.hprof
 
 *.project
