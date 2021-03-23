@@ -1,5 +1,5 @@
 {
-  "name": "beelingua",
+  "name": "beelingua-indras-check",
   "version": "0.0.1",
   "main": "index.js",
   "typings": "index.d.ts",
