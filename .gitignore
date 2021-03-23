@@ -59,7 +59,8 @@ buck-out/
 /ios/Pods/
 
 # other
-
+package-lock.json
+yarn.lock
 # app/utilities/PushUpdate/config.json
 
 # assets
