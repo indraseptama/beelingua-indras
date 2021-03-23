@@ -21,6 +21,3 @@ jobs:
 
       - name: Install deps and build (with cache)
         run: npm install
-
-      - name: Build
-        run: npm run build
